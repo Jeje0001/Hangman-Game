@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Hangman-Game",
+			"path": "."
+		},
+		{
+			"name": "images",
+			"path": "../../../Downloads/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Hangman-Game"
+	}
+}
