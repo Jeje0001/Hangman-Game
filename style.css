@@ -72,8 +72,38 @@ body{
     border-color: transparent;
     margin: -40px 0 35px;
 }
+.incorrect b{
+    color:red;
 
-.mainbox h4 b{
-    font-weight: 600;
+
 }
-/* continue at  8:30 */
+.keyboard{
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.keyboard button{
+    color:white;
+    font-size: 1rem;
+    font-weight: 600;
+    background: purple;
+    cursor: pointer;
+    outline: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 7px;
+    border: none;
+    width: calc(100% / 9 - 5px);
+}
+
+.keyboard button:hover{
+    background-color: white;
+    color: black;
+}
+.gamemodal{
+
+}
+/* continue at  11:40 */
